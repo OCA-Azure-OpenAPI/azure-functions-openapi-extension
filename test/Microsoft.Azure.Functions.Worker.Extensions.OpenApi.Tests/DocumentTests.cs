@@ -449,7 +449,7 @@ namespace Microsoft.Azure.Functions.Worker.Extensions.OpenApi.Tests
         {
             var helper = new Mock<IDocumentHelper>();
 
-            var scheme = "https";
+            var scheme = "http";
             var routePrefix = "api";
 
             var req = new Mock<IHttpRequestDataObject>();
